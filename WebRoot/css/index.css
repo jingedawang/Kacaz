@@ -1,0 +1,13 @@
+*{padding:0; margin:0; list-style:none}
+
+body{background:#f0f0f2; font-family: "Microsoft Yahei";}
+#profile{height:250px; background:white; margin-top:100px; border-top: 1px solid #bababc; border-bottom: 1px solid #bababc;}
+#image{width:200px; height:200px; display:block; margin:25px auto;}
+#imageContainer{width:300px; height:250px; float:left; line-height: 250px;}
+#nickname{float:left; height:250px;}
+#nickname div{margin:100px 50px; line-height: 2em;}
+#content{width:100%; padding:0; margin-top:100}
+.activity{height: 100; background:white; line-height: 100px; overflow: hidden; padding-left:100px;}
+.hr{border-top:1px solid #bababc;}
+#blank{height:100px;}
+table{height:250px;}

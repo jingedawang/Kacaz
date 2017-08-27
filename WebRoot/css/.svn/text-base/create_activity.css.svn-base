@@ -1,0 +1,12 @@
+*{padding:0; margin:0; list-style:none}
+
+body{background:#f0f0f2; font-family: "Microsoft Yahei";}
+
+div#header{background-color: skyblue; height: 100px; width: 100%; 
+	text-align: center; line-height: 100px;}
+div#content{text-align: center; line-height: 50px; padding:50px; 
+	background-color: white;}
+div#content table{margin: 0px auto; text-align: left; cellspacing: 50px;}
+div#content table #submit{margin:0px auto; width:70px; height:30px; display:block; }
+.hr{border-top:1px solid #bababc;}
+.blank{height:100px;}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+	<!-- 指定Web应用的默认编码集,相当于调用HttpServletRequest的setCharacterEncoding方法 -->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <!-- 该属性指定需要Struts 2处理的请求后缀，该属性的默认值是action，即所有匹配*.action的请求都由Struts2处理。
+    如果用户需要指定多个请求后缀，则多个后缀之间以英文逗号（,）隔开。 -->
+    <constant name="struts.action.extension" value="do"/>
+    <!-- 设置浏览器是否缓存静态内容,默认值为true(生产环境下使用),开发阶段最好关闭 -->
+    <constant name="struts.serve.static.browserCache" value="false"/>
+    <!-- 当struts的配置文件修改后,系统是否自动重新加载该文件,默认值为false(生产环境下使用),开发阶段最好打开 -->
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    <!-- 开发模式下使用,这样可以打印出更详细的错误信息 -->
+    <constant name="struts.devMode" value="true" />
+     <!-- 默认的视图主题 -->
+    <constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.objectFactory" value="spring" />
+    
+ 	<package name="jsp" extends="struts-default">
+ 		<global-results>
+ 			<result name="message">/WEB-INF/page/message.jsp</result>
+ 		</global-results>
+		<action name="action_*" class="myAction" method="{1}">
+			<result name="success">WEB-INF/page/success.jsp</result>
+			<result name="fail">WEB-INF/page/fail.jsp</result>
+			<result name="jsp">WEB-INF/page/me.jsp</result>
+			<result name="register">WEB-INF/page/register.jsp</result>
+			<result name = "me">WEB-INF/page/me.jsp</result>
+			<result name = "create_activity">WEB-INF/page/create_activity.jsp</result>
+			<result name = "home">WEB-INF/page/home.jsp</result>
+		</action>
+    </package>
+
+</struts>    

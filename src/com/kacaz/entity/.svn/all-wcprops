@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/kacaz/!svn/ver/6/Kacaz/src/com/kacaz/entity
+END
+Activity.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kacaz/!svn/ver/4/Kacaz/src/com/kacaz/entity/Activity.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kacaz/!svn/ver/6/Kacaz/src/com/kacaz/entity/User.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/kacaz/!svn/ver/2/Kacaz/src/com/kacaz/entity/Message.java
+END
+Place.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/kacaz/!svn/ver/4/Kacaz/src/com/kacaz/entity/Place.java
+END
+Username.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/kacaz/!svn/ver/4/Kacaz/src/com/kacaz/entity/Username.java
+END
+TestEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/kacaz/!svn/ver/4/Kacaz/src/com/kacaz/entity/TestEntity.java
+END
+Detail.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/kacaz/!svn/ver/4/Kacaz/src/com/kacaz/entity/Detail.java
+END
+Work.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/kacaz/!svn/ver/2/Kacaz/src/com/kacaz/entity/Work.java
+END

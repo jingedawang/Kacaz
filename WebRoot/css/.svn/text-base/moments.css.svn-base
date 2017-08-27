@@ -1,0 +1,7 @@
+*{padding:0; margin:0; list-style:none}
+
+body{background:#f0f0f2; font-family: "Microsoft Yahei";}
+
+.hr{border-top:1px solid #bababc;}
+h2{margin:50px auto; width:300px; text-align: center;}
+div#content{text-align: center; line-height: 50px; padding:50px; background-color: white;}
